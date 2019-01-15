@@ -1,6 +1,8 @@
 package restClient;
 
-public class DriverInfo {
+import java.io.Serializable;
+
+public class DriverInfo implements Serializable{
 
 	/*
 	 * "oper_nbr":69,
